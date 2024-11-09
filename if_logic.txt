@@ -1,0 +1,39 @@
+
+Question 1) **************************************************************************
+
+Prompt the user to enter a day of the week and store their input in a variable called 'day'
+
+If the user entered 'Saturday' or 'Sunday' print 'WEEKEND', otherwise print 'WEEKDAY'
+
+
+Question 2) **************************************************************************
+
+Prompt the user to enter a day of the week and store their input in a variable called 'day'
+
+Prompt the user to enter a time (just the hour) and store their input in a variable called 'hour'
+
+If they enter 'Sunday' for the day and the hour is less than 12 print 'PARKING IS FREE'
+
+
+Question 3) **************************************************************************
+
+Prompt the user to enter a day of the week and store their input in a variable called 'day'
+
+Prompt the user to enter a time (just the hour) and store their input in a variable called 'hour'
+
+If they enter 'Sunday' or 'Wednesday' for the day and the hour is less than 12 print 'PARKING IS FREE'
+
+
+Question 4) **************************************************************************
+
+Prompt the user to enter a day of the week and store their input in a variable called 'day'
+
+If the user entered 'Saturday' or 'Sunday' print 'WEEKEND'. 
+
+Do not use an 'else:' clause in the answer for the following part of the question but instead write a 
+separate 'if' statement as follows:
+
+If the user did not enter 'Saturday' or 'Sunday' print 'WEEKDAY'.
+
+So only test for values of Saturday and Sunday to detect if the input is a Weekday
+

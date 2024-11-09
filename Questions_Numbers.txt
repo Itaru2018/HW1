@@ -1,0 +1,104 @@
+
+Question 1) ****************************************************************************
+
+A process timer measures the total time it takes to complete a task.
+
+It shows the output as the number of seconds elapsed.
+
+Write a program to convert this time in seconds to the time in minutes and seconds.
+
+
+Example:-
+
+    input_seconds = 1000
+    
+    Print the output as follows:-
+    
+    1000 seconds is 16 minutes 40 seconds
+
+----------------------
+
+Question 2) ****************************************************************************
+
+Prompt the user to enter three numbers
+
+After the third number is entered display the average of the numbers on the screen
+
+BONUS: Allow the user to keep entering numbers until they enter an empty string
+
+-------------------
+
+Question 3) ****************************************************************************
+
+Write a program to convert a fraction to a decimal number
+
+For the fraction prompt the user for the number above the line then prompt for the number below the line
+
+Divide the above number by the below number and display the output
+
+BONUS: Round the resulting number to two decimal places
+
+------------------------------------------------------
+
+Question 4 ) ****************************************************************************
+
+
+Prompt the user to enter a string
+Prompt the user to enter another string
+
+Tell the user which string is longer
+
+e.g. 1
+Enter String1: Friday
+Enter String2: Wednesday
+
+Wednesday is longer than Friday
+
+e.g. 2
+Enter String1: greyhound
+Enter String2: cat
+
+greyhound is longer than cat
+
+-------------------
+
+Question 5) ****************************************************************************
+
+
+num = 123456
+
+Using the // (floor division) and % (modolus) operators print out the digits in reverse order
+
+Output should be 654321
+
+----------------
+
+Question 6) ****************************************************************************
+
+
+Given a series of 10 digits use the // (floor division) and % (modolus) operators to output the digits as a phone number in the format "(prefix)area-line"
+
+e.g.
+
+input: 9877654321
+
+output: (987)765-4321
+
+
+BONUS: Treat the digits as a string and produce the same output using string slicing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

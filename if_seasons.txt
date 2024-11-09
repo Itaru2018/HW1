@@ -1,0 +1,38 @@
+
+Question (1) *****************************************************************************
+
+Prompt the user to enter a year as a 4 digit number.
+
+If the user enters a leap year ( divides by 4 ) print 'LEAP YEAR'
+
+
+Question (2) *****************************************************************************
+
+Prompt the user to enter a month.
+
+If the month is March, April or May print 'SPRING'
+
+If the month is June, July or August print 'SUMMER'
+
+If the month is September, October or November print 'AUTUMN'
+
+If the month is December, January or February print 'WINTER'
+
+
+Question (3) *****************************************************************************
+
+Same as Question(1) but using the Astronomical seasons:-
+
+Prompt the user to enter a date (1-31)
+Prompt the user to enter a month
+
+Spring starts on 21 March and ends on 20 June
+
+Summer starts on 21 June and ends on 20 September
+
+Autumn starts on 21 September and ends on 20 December
+
+Winter starts on 21 December and ends on 20 March
+
+
+

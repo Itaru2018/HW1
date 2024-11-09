@@ -1,0 +1,150 @@
+
+Question 1 **************************************************************
+
+Write a program that gets the middle letter from each of the following words and concatenates them to form a new word.
+
+workplace
+polymer
+total
+without
+dog
+final
+
+Print out the word.
+
+
+Question 2 **************************************************************
+
+Our input data consists of lines containing customer names. Each name is prefixed with a 4 character reference id.
+
+Write a slicing expression that will get the name from each line but without the prefix.
+
+Example Input records:
+
+1001: Fred
+1002: Fredrick
+1107: Art
+2134: Ebeneezer
+
+Example output:
+
+Fred
+Fredrick
+Art
+Ebeneezer
+
+
+Question 3 **************************************************************
+
+Write a program that prompts the user to input a word.
+
+If the word is a pallindrome print "It's a PALLINDROME" otherwise print "It's not a PALLINDROME".
+
+NOTE: A pallindrome is a word that is spelled the same backwards as forwards:
+
+	e.g. racecar, kayak
+
+HINT: the third parameter to a string slice is the step size. A step size of -1 will iterate over the word in reverse.
+
+
+Question 4 **************************************************************
+
+
+Write a program to check for valid reference ids entered by the user.
+
+A reference id is considered valid if it contains only alphanumeric characters and starts with 2 uppercase letters and ends with 2 digits.
+
+If the string entered is valid print "VALID" otherwise print "INVALID"
+
+Example 1:
+
+	AB12wrt12
+
+		VALID
+
+
+	Aqwert12
+
+		INVALID
+
+
+	RTas_jk34
+
+		INVALID
+
+					
+
+Question 5 **************************************************************
+
+
+Write a program that prompts the user for a string.
+
+If the string contains an even number of characters, output the string with the second half of the string in upper case.
+
+If the input string has an odd number of characters output the message:- "The string must have an even number of characters" instead.
+
+
+
+Question 6 **************************************************************
+
+
+Web pages are made up of markup code words which are surrounded by angle brackets '<>'
+
+Unfortunately we have found corrupted pages that have the angle bracekts added incorrectly.
+
+For example  <HTML> has been output as >HTML< and <BODY> is output as >BODY<
+
+Write a program to correct these tags by swapping the first and last character of the markup words.
+
+
+Question 7 **************************************************************
+
+There's an old saying that it's not a good idea to 'put the cart before the horse'
+
+Write a program to check if the string 'cart' occurs before the string 'horse' in the example strings below.
+
+Print "BAD IDEA" if 'cart' occurs before 'horse', otherwise print "OK".
+
+If either string is not in the input string print "Ooops, missing data"
+
+Example 1:  
+
+	"my favourite cartoon is all about a horse"
+
+	BAD IDEA
+
+Example 2:
+
+	"my kingdom for a horse, or even a cart"
+
+	OK
+
+Example 3:
+
+	"a horse with no name"
+
+	"Ooops, missing data"
+
+
+Question 8 **************************************************************
+
+
+You've heard of looking for a tiny needle in a huge haystack.
+
+Print the output of a slicing expression to find the word 'needle' in the following string:
+
+haystack = "not every tweet adds jolly greetings"
+
+HINT: the third parameter of the slicing syntax is the step size
+
+
+
+
+
+
+
+
+
+
+
+
