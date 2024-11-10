@@ -1,0 +1,2 @@
+#Question 1) Prompt the user to enter a number between 1 and 10. If the number is 1 print out the number with 'st' appended If the number is 2 print out the number with 'nd' appended. If the number is 3 print out the number with 'rd' appended. Any other number should be printed with 'th' appended. Examples:Enter a number between 1 and 10: 2 2nd. Enter a number between 1 and 10: 3 3rd. Enter a number between 1 and 10: 1 1st. Enter a number between 1 and 10: 7 7th.
+
