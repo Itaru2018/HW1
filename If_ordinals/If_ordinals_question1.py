@@ -10,7 +10,7 @@ elif int(number) == 2:
 elif int(number) == 3:
     print(str(number) + 'rd')
 
-elif int(number) > 10:
+elif int(number) > 10 or int(number) <= 0:
     print('ERROR. Please type a number between 1 and 10')
 
 else :
