@@ -1,6 +1,7 @@
 # Question 7 **************************************************************
 # There's an old saying that it's not a good idea to 'put the cart before the horse'
-# Write a program to check if the string 'cart' occurs before the string 'horse' in the example strings below.
+# Write a program to check if the string 'cart' occurs before the string 'horse' 
+# in the example strings below.
 # Print "BAD IDEA" if 'cart' occurs before 'horse', otherwise print "OK".
 # If either string is not in the input string print "Ooops, missing data"
 #Example 1:  
