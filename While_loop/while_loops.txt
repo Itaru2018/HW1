@@ -1,0 +1,106 @@
+
+Question 1 ) ************************************************************************************************
+
+	Prompt the user to enter a number.
+
+	Using a while loop and the % (modulo operator) print out all the even numbers up to the number the user entered.
+	
+	
+Question 2 ) ************************************************************************************************
+
+	Prompt the user to enter a series of numbers, one at a time
+	
+	If the user enters 0 stop the program and print out the largest number they entered
+
+Question 3 ) ************************************************************************************************
+
+	Create a guessing game :-
+
+	Prompt the user to enter a number between 1 and 10
+
+	If the guess is not correct prompt the user to try again
+
+	If the the guess is correct print a message and finish
+
+	Keep a count of the number of guesses and display it when the guess is correct
+
+	Example:
+
+		Guess the Number: 7
+		Guess the Number: 5
+		Guess the Number: 9
+		Guess the Number: 2
+		Yippeee! The number is 2, You used 4 guesses
+
+	Note: Start your program with the following lines to generate a random number between 1 and 10
+
+	import random
+
+	number = random.randint(1, 10)
+
+Question 4 ) ************************************************************************************************
+
+
+	Modify Question 3) to increase the range of numbers from 1 to 64
+
+	When the user makes an incorrect guess give them a hint by printing whether their guess was too small or too big
+
+	Example:-
+
+		Guess the Number: 44
+		Ooops! Too Big
+		Guess the Number: 42
+		Ooops! Too Big
+		Guess the Number: 38
+		Ooops! Too Small
+		Guess the Number: 39
+		Ooops! Too Small
+		Guess the Number: 40
+		Yippeee! The number is 40, You used 5 guesses
+
+
+Question 5 ) ************************************************************************************************
+
+Prompt the user to enter a series of numbers, one at a time.
+
+Keep prompting for numbers until the sum of the numbers entered is more than 1000, then print the sum.
+
+
+Question 6 ) ************************************************************************************************
+
+
+text = "Cdnuolt blveiee taht I cluod aulaclty uesdnatnrd waht I was rdanieg. The phaonmneal pweor of the hmuan mnid, aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it dseno't mtaetr in waht oerdr the ltteres in a wrod are, the olny iproamtnt tihng is taht the frsit and lsat ltteer be in the rghit pclae. The rset can be a taotl mses and you can sitll raed it whotuit a pboerlm. Tihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod as a wlohe. Azanmig huh? yaeh and I awlyas tghuhot slpeling was ipmorantt!"
+
+
+Above is a passage of text without line breaks. Write a program to wrap the text at a selectable width but without splitting the letters of any word.
+
+
+Example: width = 80
+
+--------------------------------------------------------------------------------
+Cdnuolt blveiee taht I cluod aulaclty uesdnatnrd waht I was rdanieg. The
+ phaonmneal pweor of the hmuan mnid, aoccdrnig to a rscheearch at Cmabrigde
+ Uinervtisy, it dseno't mtaetr in waht oerdr the ltteres in a wrod are, the
+ olny iproamtnt tihng is taht the frsit and lsat ltteer be in the rghit pclae.
+ The rset can be a taotl mses and you can sitll raed it whotuit a pboerlm. Tihs
+ is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod
+ as a wlohe. Azanmig huh? yaeh and I awlyas tghuhot slpeling was ipmorantt!
+
+Example: width = 40
+
+----------------------------------------
+Cdnuolt blveiee taht I cluod aulaclty
+ uesdnatnrd waht I was rdanieg. The
+ phaonmneal pweor of the hmuan mnid,
+ aoccdrnig to a rscheearch at Cmabrigde
+ Uinervtisy, it dseno't mtaetr in waht
+ oerdr the ltteres in a wrod are, the
+ olny iproamtnt tihng is taht the frsit
+ and lsat ltteer be in the rghit pclae.
+ The rset can be a taotl mses and you
+ can sitll raed it whotuit a pboerlm.
+ Tihs is bcuseae the huamn mnid deos
+ not raed ervey lteter by istlef, but
+ the wrod as a wlohe. Azanmig huh? yaeh
+ and I awlyas tghuhot slpeling was
+ ipmorantt!
