@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-#Question 5 ****************************************************************************
-#num = 123456
-#Using the // (floor division) and % (modolus) operators print out the digits in reverse order
-#Output should be 654321
-=======
 # Question 5) ****************************************************************************
 # num = 123456
 # Using the // (floor division) and % (modolus) operators print out the digits in reverse order
@@ -17,5 +11,4 @@ while num > 0:
     num = num//10
 
 # change the string to intager and print it
-print(int(st)
->>>>>>> cc61bf6059942109c4a4eefae7beff8d5a81790b
+print(int(st))
