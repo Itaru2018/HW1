@@ -1,0 +1,171 @@
+# Q 1. ******************************************
+
+'''
+Write a function called 'average' to claculate the average value of 3 numbers.
+The function has 3 parameters num1, num2 and num3
+'''
+
+e.g. 	inputs:  11, 6, 7
+
+	result: average is 8.0
+
+# Q 2. ******************************************
+
+'''
+Write a function called 'celsius_to_fahrenheit' which takes 
+an input temperature reading in celsius and returns the equivalent temperature as a fahrenheit reading.
+'''
+
+e.g. 	input:  20
+
+	result: 68
+
+NOTE: to convert to fahrenheit divide the input by 5, multiply by 9 and add 32 to that result.
+
+# Q 3. ******************************************
+
+'''
+Write a function called 'fahrenheit_to_celsius' which takes 
+an input temperature reading in fahrenheit and returns the equivalent temperature as a celsius reading.
+'''
+
+e.g. 	input:  68
+
+	result: 20
+
+NOTE: to convert to celsius subtract 32 from the input, divide the result by 9 multiply by 5.
+
+
+# Q 4. ******************************************
+
+'''
+Write a function called 'square' to calculate the area of a square.
+The function takes a single input which is the length of a side and returns the area.
+'''
+
+e.g. 	input:  5
+
+	result: 25
+
+# Q 5. ******************************************
+
+'''
+Write a function called 'rectangle' to calculate the area of a rectangle.
+The function takes a two inputs input which are the lengths for the width and the height and the rectangle and returns the area.
+'''
+
+e.g. 	input:  5, 4
+
+	result: 20
+
+# Q 6. ******************************************
+
+'''
+Write a function called 'triangle' to calculate the area of a right-angle triangle.
+The function takes a two inputs input which are the lengths for the width and height of the corresponding rectangle and returns the area.
+'''
+
+e.g. 	input:  5, 4
+
+	result: 10
+	
+NOTE: The area of the triangle is half the area of the surrounding rectangle. 	
+	
+# Q 7. ******************************************
+
+'''
+Rewrite the 'square' function above to use the rectangle function. 
+i.e. the square function makes a call to the rectangle function to do the calculation.
+'''
+
+e.g. 	input:  5
+
+	result: 25
+	
+# Q 8. ******************************************
+
+'''
+Rewrite the triangle function above to use the rectangle function. 
+i.e. the triangle function makes a call to the rectangle function in its calculation.
+'''
+
+e.g. 	input:  5, 4
+
+	result: 10
+
+# Q 9. ******************************************
+
+'''
+Write a function which takes a single input number and returns True if the number is even and False if the number is odd. 
+'''
+
+
+e.g. 	input:  8
+
+	result: True
+	
+e.g. 	input:  7
+
+	result: False
+
+# Q 10. ******************************************
+
+'''
+Write a function called 'deposit' which takes two inputs called 'balance' and 'amount'.
+The function should add the amount to the balance and return the new balance.
+'''
+e.g. 	input:  100, 50
+
+	result: 150
+
+# Q 11. ******************************************
+
+'''
+Write a function called 'withdraw' which takes two inputs called 'balance' and 'amount'.
+The function should subtract the amount from the balance and return the new balance.
+If the amount is greater than the balance the function should return "insuficient funds".
+'''
+
+e.g. 	input:  100, 50
+
+	result: 50
+	
+e.g. 	input:  50, 100
+
+	result: insuficient funds	
+	
+
+
+# Q 12. ******************************************
+'''
+Write a function called 'long_word' which takes 2 words as input and returns the longer word.
+'''
+
+e.g.	input 'cat', 'greyhound'
+
+	result: greyhound is longer
+
+# Q 13. ******************************************
+'''
+Write a function called 'leap_year' which takes a 4-digit year as an input and returns True if the year is a leap year, False otherwise.
+
+NOTE: A year is a leap year if it is divisible by 4, unless it is divisible by 100 then it is not a leap year. 
+      But if it is divisible by 400, then it is a leap year!
+'''
+
+print(leap_year(2024)) - True
+print(leap_year(2025)) - False
+print(leap_year(1984)) - True
+print(leap_year(1700)) - False
+print(leap_year(1800)) - False
+print(leap_year(1900)) - False
+print(leap_year(2000)) - True
+
+
+
+
+
+
+
+
+
