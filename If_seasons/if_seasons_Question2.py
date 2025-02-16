@@ -10,9 +10,9 @@ month = input('Enter a month:')
 # Make the logic operator
 if month in ('March', 'April', 'May'):
     print('SPRING')
-elif month in ('June', 'July', 'August'):
+if month in ('June', 'July', 'August'):
     print('SUMMER')
-elif month in ('September', 'October', 'November'):
+if month in ('September', 'October', 'November'):
     print('AUTUMN')
-elif month in ('December', 'January', 'February'):
+if month in ('December', 'January', 'February'):
     print('WINTER')

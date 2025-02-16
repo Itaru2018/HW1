@@ -22,3 +22,10 @@
 # Example 3:
 # Enter Guess (rock, paper or scissors): paper
 # Ooops! - you looooose to scissors :(
+
+import random
+player1 = input('Enter Guess (rock, paper or scissors): ')
+player2 = random.choice(('rock', 'paper' , 'scissors'))
+
+if player1 == player2:
+    print('It is a tie!')

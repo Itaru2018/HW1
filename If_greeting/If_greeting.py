@@ -11,15 +11,30 @@ TM = input('enter a time in the format HH:MM: ')
 # Split the input into hour and minute, conver them into int and save them as a list
 TM_list = [int(x) for x in TM.split(':')]
 
-# Make the logic operator
-if TM_list[0] >= 5 and TM_list[0] < 12:
+hour = TM_list[0]
+# This is a better way
+h, r = TM.split(':')
+
+h = int(h)
+r = int(r)
+
+# Another version
+h, r = map(int, TM.split(':'))
+
+print('H', h)
+
+print('M', r)
+
+
+# Make the logic operator  
+if 5 <= h < 12:
     print('Good Morning')
     
-elif TM_list[0] >= 12 and TM_list[0] < 17:
+if 12 <= h < 17:
     print('Good Afternoon')
 
-elif TM_list[0] >= 17 and TM_list[0] < 21:
+if 17 <= h < 21:
     print('Good Evening')
 
-elif TM_list[0] >= 21 or TM_list[0] < 5:
+if 21 <= h or h < 5:
     print('Good Night')
