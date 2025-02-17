@@ -29,3 +29,30 @@ player2 = random.choice(('rock', 'paper' , 'scissors'))
 
 if player1 == player2:
     print('It is a tie!')
+
+if player1 == 'rock' and player2 =='scissors':
+    print('You Win! rock beats scissors')
+
+if player1 == 'scissors' and player2 == 'rock':
+    print('You lose to rock')
+
+if player1 == 'scissors' and player2 == 'paper':
+    print('You Win! scissors beats paper')
+
+if player1 == 'paper' and player2 == 'scissors':
+    print('You lose to scissors')
+    
+if player1 == 'paper' and player2 =='rock':
+    print('You Win! paper beats rock')
+    
+if player1 == 'rock' and player2 =='paper':
+    print('You lose to paper')
+    
+    
+    
+    
+    
+    
+    
+    
+    
