@@ -9,3 +9,14 @@ while x >= 1:
         x += -2
     else: 
         x += - 1
+
+
+x = int(input('Enter a number:'))
+
+n = 0
+
+while n <= x:
+    if n % 2 == 0:
+        print(n)
+    n += 1
+    
